@@ -800,10 +800,10 @@ ul {
   color: #000000;
   cursor: pointer;
   outline: none;
-  transition: color 250ms var(--cubic), .btn-close;
+  transition: color 250ms var(--cubic), border-color 250ms var(--cubic), border-radius 250ms var(--cubic);
 }
 
-.btn-close :hover, .btn-close:focus {
+.btn-close:hover, .btn-close:focus {
   color: var(--accent-color);
 }
 
@@ -811,6 +811,12 @@ ul {
   margin: auto;
   fill: currentColor;
   transition: transform 250ms var(--cubic);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+  }
 }
 
 .form {

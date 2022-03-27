@@ -41,11 +41,11 @@ img {
   height: auto;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
-.list {
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -180,11 +180,6 @@ img {
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 250ms var(--cubic);
-  }
-  .menu__link:not(.menu__link--current):hover::after,
-  .menu__link:not(.menu__link--current):focus::after {
-    transform: scaleX(1);
-    transform-origin: left;
   }
 }
 
@@ -784,7 +779,7 @@ img {
 }
 
 .is-hidden .modal {
-  transform: translateY(-50%) rotateX(-45deg);
+  transform: translateY(-50%);
 }
 
 /* Кнопка закрытия модалки */

@@ -60,11 +60,11 @@
     transition: transform 250ms var(--cubic);
   }
 
-  .menu__link:not(.menu__link--current):hover::after,
-  .menu__link:not(.menu__link--current):focus::after {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
+  // .menu__link:not(.menu__link--current):hover::after,
+  // .menu__link:not(.menu__link--current):focus::after {
+  //   transform: scaleX(1);
+  //   transform-origin: left;
+  // }
 }
 
 .menu__link--current {

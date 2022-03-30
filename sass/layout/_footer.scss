@@ -66,13 +66,13 @@
 
 @include tablet() {
   .page-footer__container {
-    @include centrFlex(flex, baseline, center);
+    @include centrFlex(flex, baseline, space-around);
     flex-wrap: wrap;
   }
 
-  .page-footer__address {
-    margin-right: 165px;
-  }
+  // .page-footer__address {
+  //   margin-right: 165px;
+  // }
 
   .page-footer__social {
     max-width: 220px;

@@ -1497,12 +1497,9 @@ ul {
 @media screen and (min-width: 768px) {
   .page-footer__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
-  }
-  .page-footer__address {
-    margin-right: 165px;
   }
   .page-footer__social {
     max-width: 220px;
